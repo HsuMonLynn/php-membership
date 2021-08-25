@@ -1,32 +1,38 @@
 # Membership Project
-
 The complete process of creating a user registration system where users can create an account by providing username, email and password, login and logout using PHP and MySQL.It also show how to make home page accessible only to logged-in users. Any other user not logged in will not be able to access the page.
 
-## Requirement
-- [PHP 8]
-- [Apache]
-- [Mysql 8]
+## Requirements
+
+- PHP 8
+- Apache 
+- MySQL 8
 
 ## Installation
+
 Clone the repository
 
-git clone https://github.com/HsuMonLynn/Login_Project.git
+git clone https://github.com/HsuMonLynn/php-membership.git
+
 
 Import database from command prompt
 
-- [Create database]
-- [Open Command Prompt]
-- [Type this Syntax](#Syntax)
+- Create database 
+- Open Command Prompt
+- Type this [Syntax](#syntax)
 
-Syntax
+Syntax-
+
 
 mysql -u username -p database_name < file.sql
+
 
 >**username* = Your MySQL username.*<br /><br />
 *database_name* = *Database name in which you want to import.*<br /><br />
 *file.sql* = SQL file name.
 
-## Register
+
+## Feature
+
 - [Register](#register)
 - [Login](#login)
 - [Home](#home)
